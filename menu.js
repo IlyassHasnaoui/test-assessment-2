@@ -38,7 +38,7 @@ const pizza = {
     category: "entree",
     popularity: 1, 
     rating: 4.9, 
-    tags: ["gluten-free", "italian", "Wood-fired "]
+    tags: ["gluten-free", "Wood-fired "]
 }
 
 //////////////////PROBLEM 2////////////////////
@@ -101,27 +101,27 @@ console.log(category)
 
 const foodArr = [
     {
-        name: "Pepperoni Pizza",
-        price: 17.99,
+        name: "Egg salad",
+        price: 8.97,
         category: "entree",
-        popularity: 4,
+        popularity: 5,
         rating: 4.7,
-        tags: ["meat-lover", "italian", "classic"]
+        tags: ["eggs", "salad"]
     },
     {
         name: "Margherita Pizza",
         price: 16.99,
         category: "entree",
         popularity: 5,
-        rating: 4.5,
-        tags: ["cheese", "italian", "classic"]
+        rating: 4.8,
+        tags: ["cheese", "kids"]
     },{
-        name: "Veggie Burger",
+        name: "Bacon Cheeseburger",
         price: 19.99,
         category: "entree",
         popularity: 3,
         rating: 4.2,
-        tags: ["vegetarian", "burger", "healthy"]
+        tags: ["bacon", "burger"]
     },
     {
         name: "Shrimp Scampi",
@@ -129,15 +129,15 @@ const foodArr = [
         category: "entree",
         popularity: 4,
         rating: 4.8,
-        tags: ["pasta", "italian", "creamy"]
+        tags: ["pasta", "sea food"]
     },
     {
-        name: "Caesar Salad",
-        price: 7.99,
+        name: "Mozarella sticks",
+        price: 8.99,
         category: "appetizer",
         popularity: 2,
         rating: 4.0,
-        tags: ["salad", "healthy", "light"]
+        tags: ["Cheesy", "marinara"]
     }
 ]
 
