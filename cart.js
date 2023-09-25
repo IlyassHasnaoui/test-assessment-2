@@ -56,17 +56,17 @@ console.log(summedPrice)
 //CODE HERE
 
 function calcFinalPrice(cartTotal, couponValue, tax) {
-const taxAmount = cartTotal * tax;   
-const finalPrice = cartTotal + taxAmount - couponValue;
-return finalPrice;
+const taxAmount = cartTotal * tax   
+const finalPrice = cartTotal + taxAmount - couponValue
+return finalPrice
 }
 
 //Putting the function in use given the numbers below
-const cartTotal = 26.97;
-const couponValue = 5;
-const tax = 0.06;
+const cartTotal = 26.97
+const couponValue = 5
+const tax = 0.06
 
-const finalPrice = calcFinalPrice(cartTotal, couponValue, tax);
+const finalPrice = calcFinalPrice(cartTotal, couponValue, tax)
 console.log(finalPrice)
 
 //////////////////PROBLEM 3////////////////////
