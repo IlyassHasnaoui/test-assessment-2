@@ -122,7 +122,7 @@ class Manager extends Employee {
 */
 
 //CODE HERE
-const manager = new Manager("Winston", "weekday mornings, weekday afternoons", "cece and Schmidt");
+const manager = new Manager("Winston", "weekday mornings, weekday afternoons", "cece and Schmidt")
 
 /*
     Call the `getEmployees` method on the
