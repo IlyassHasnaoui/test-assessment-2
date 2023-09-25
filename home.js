@@ -30,9 +30,6 @@ const username = "Ilyass";
 const greeting = greetUser(username)
 console.log(greeting)
 
-
-
-
 //////////////////PROBLEM 2////////////////////
 /* 
     Below is an array of zip codes that are in
@@ -56,8 +53,14 @@ console.log(greeting)
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-
-
+function canWeDeliver(zipCode) {
+    if (deliveryAreaZipCodes.includes(zipCode)) {
+        return "You're in our delivery zone!"
+    } else {
+        return "Sorry, we can't deliver to that address"
+    }
+}
+console.log(canWeDeliver(85205))
 
 /* 
     Problem 2 Continued
@@ -77,7 +80,16 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 */
 
 // CODE HERE
-
+function canWeDeliverTwo(zipCode) {
+    for (let i = 0; i < deliveryAreaZipCodes.length; i++) {
+        if (deliveryAreaZipCodes[i] === zipCode) {
+            return "You're in our delivery zone!"
+        }
+    }
+    return "Sorry, we can't deliver to that address"
+}
+console.log(canWeDeliverTwo(85205))
+console.log(canWeDeliverTwo(02148))
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -113,8 +125,8 @@ const deals = [
 */
 
 //CODE HERE
-
-
+deals[0].title = deals[0].title.replace('15%', '10%')
+console.log(deals[0].title)
 
 /*
     The restaurant is going to continue its
