@@ -91,6 +91,7 @@ console.log(finalPrice)
 
 /*
     TEXT ANSWER HERE
+    
 The properties I will use would be the name of the customer, their order, their phone number and their address.
 ----------------------------------------------------------------------------------------------------------------------------
 The name property will store the customer's full name. The data type will be a string because store textual information.
