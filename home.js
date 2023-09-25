@@ -22,7 +22,13 @@
 */
 
 //CODE HERE
+const greetUser = (username) => {
+    return `Welcome back, ${username}`
+}
 
+const username = "Ilyass";
+const greeting = greetUser(username)
+console.log(greeting)
 
 
 
